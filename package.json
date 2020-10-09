@@ -1,0 +1,25 @@
+{
+  "name": "digital-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "homepage":"https://binita670.github.io/Digital-Clock",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binita670/Digital-Clock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binita670/Digital-Clock/issues"
+  },
+  "homepage": "https://github.com/binita670/Digital-Clock#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

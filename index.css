@@ -55,10 +55,15 @@ body {
   box-shadow: 3px 3px 9px #542682, -3px -3px 9px #1e132921;
 }
 
+.date-day {
+  text-align: center;
+}
+
 .hours,
 .minutes,
 .seconds,
-.amorpm {
+.amorpm,
+.date-day {
   letter-spacing: 5px;
   color: white;
 }
