@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: rebeccapurple;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  margin: 20px;
+}
+
+.box {
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.hours,
+.minutes,
+.seconds {
+  width: 4em;
+  height: 4em;
+  background-color: rebeccapurple;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  box-shadow: 3px 3px 9px #542682, -3px -3px 9px #1e132921;
+}
+
+.hours,
+.minutes,
+.seconds,
+.amorpm {
+  letter-spacing: 5px;
+  color: white;
+}
+
+.box > h1 {
+  width: 4em;
+  height: 1em;
+  background-color: rebeccapurple;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: 3px 3px 9px #542682, -3px -3px 9px #1e132921;
+  font-size: 1em;
+  color: white;
+}
+
+.box:hover {
+  opacity: 0.8;
+  transform: translateY(-3px);
+}
+
+.amorpm {
+  width: 5em;
+  height: 6em;
+  font-size: 20px;
+  background-color: rebeccapurple;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: 3px 3px 9px #542682, -3px -3px 9px #1e132921;
+}
+
+.colons {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  transform: translateY(-30px);
+  animation: blink 0.9s ease-in-out infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
